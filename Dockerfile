@@ -9,6 +9,10 @@ RUN sudo apt-get update
 RUN sudo apt-get install -y mongodb-org
 RUN sed -i "s,\\(^[[:blank:]]*bindIp:\\) .*,\\1 0.0.0.0," /etc/mongod.conf
 
+# Uncomment after create admin and password
+# RUN rm -rf /etc/mongod.conf
+# COPY mongod.conf /etc/mongod.conf
+
 RUN echo "mongodb-org hold" | sudo dpkg --set-selections
 RUN echo "mongodb-org-database hold" | sudo dpkg --set-selections
 RUN echo "mongodb-org-server hold" | sudo dpkg --set-selections
