@@ -1,4 +1,4 @@
-[Mongodb Docker Compass]('./images/mongodbcompass.png' "Mongodb Compass connect to Mongodb Docker")
+[Mongodb Docker Compass]('https://raw.githubusercontent.com/bogordesaincom/mongodb-fly/master/images/mongodbcompass.png' "Mongodb Compass connect to Mongodb Docker")
 
 ### Install Mongodb with Debian
 
@@ -57,4 +57,10 @@ Deploy Again to Fly.io
 
 ```
 fly deploy --config=fly.toml --no-cache
+```
+
+### Example Login using mongodb Compass :
+
+```
+mongodb://userlogin:changemepassword@applikasinya.fly.dev:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.1
 ```
