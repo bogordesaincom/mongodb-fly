@@ -1,4 +1,4 @@
-[Mongodb Docker Compass](/images/mongodbcompass.png)
+[Mongodb Docker Compass](https://raw.githubusercontent.com/bogordesaincom/mongodb-fly/master/images/mongodbcompass.png)
 
 ### Install Mongodb with Debian
 
